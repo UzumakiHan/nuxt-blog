@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3003",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.7.0",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "@unocss/nuxt": "^0.53.4",
+    "nuxt": "^3.6.1",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "@giscus/vue": "^2.3.0",
+    "@iconify-json/icon-park-outline": "^1.1.11",
+    "@iconify-json/simple-icons": "^1.1.59",
+    "@unocss/reset": "^0.53.4",
+    "date-fns": "^2.30.0",
+    "element-plus": "^2.3.7",
+    "element-ui": "^2.15.13"
+  }
+}
